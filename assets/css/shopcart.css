@@ -1,0 +1,130 @@
+/* comman class start */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.container {
+    max-width: 1570px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.heading {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0.25px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(29, 29, 31, 0.6);
+}
+
+.sub_heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 34px;
+    letter-spacing: 0.15px;
+    color: rgba(29, 29, 31, 0.6);
+}
+
+.second_sub_heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.15px;
+    color: rgba(29, 29, 31, 0.6);
+}
+
+.p_heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.17px;
+    color: rgba(29, 29, 31, 0.6);
+}
+
+.second_p_heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.17px;
+    color: rgba(29, 29, 31, 0.6);
+}
+
+.button_text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    background-color: rgba(3, 176, 118, 1);
+    padding: 12px 36px 12px 28px;
+    display: flex;
+    gap: 17px;
+    justify-content: center;
+}
+
+/* comman class end */
+/* nav bar section start */
+.navbar_bg {
+    padding: 30px 20px;
+    background: rgba(19, 163, 77, 0.04);
+}
+
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shopcart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+.shop_cart_text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #039665;
+}
+.nav_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    line-height:28px;
+}
+/* nav bar section end */
